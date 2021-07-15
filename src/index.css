@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.hero {
+    background: url('https://smoda.elpais.com/wp-content/uploads/2017/11/5.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navegacion {
+    padding-top: 2px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navegacion ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    text-align: center;
+}
+
+.h410 {
+    text-align: center;
+}
+
+.historia {
+    text-align: center;
+}
+
+.navegacion li {
+    list-style: none;
+}
+
+.header-contenido h1 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 400px;
+}
+
+.header-contenido p {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 400px;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link:hover {
+    background-color: cornflowerblue;
+}
+
+.active {
+    font-weight: bold;
+    color: skyblue;
+}
+
+.h01 {
+    text-align: center;
+}
+
+.p10 {
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.images {
+    transition: 0.3s;
+    transition-delay: 0.03s;
+}
+
+img {
+    max-width: 375px;
+}
+
+.platos {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+/* desde aqui hacia abajo presenta el problema*/
+
+.variedades {
+    background: url('https://i.pinimg.com/736x/24/15/49/24154938df1ec7f66a91fd8143b38dcd.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    background-position: center center;
+}
+
+.platillos {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    border: 10px solid;
+    font-style: bold;
+}
+
+.bebida {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    border: 10px solid;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.variedades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nombre {
+    color: skyblue;
+}
+
+.zona {
+    margin-top: 25px;
+    max-width: 100%;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.contenedor12 {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+
+.zona14 {
+    color: red;
+}
+
+.efecto {
+    background: url('https://www.godominicanrepublic.com/wp-content/uploads/2017/11/Colonial-Zone-nighttime-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 50%;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    color: white;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.footer {
+    padding-bottom: 50px;
+    margin: 12px, 5px;
+    background-color: rgb(50, 58, 66);
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.titulofooter {
+    text-align: center;
+}
+
+.mapa {
+    margin-top: 10px;
+    background-position: center center;
+    width: 100%;
+}
+
+.ubicacion {
+    text-align: center;
+}
+
+.galeria {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.efectoMenu {
+    opacity: .7;
+    padding-left: 20px;
+    background-position: center center;
+    margin-left: px;
+}
+
+.tamaño {
+    height: 250px;
+    width: 290px;
+    border: 2px;
+}
+
+.h27 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.efectoMenu:hover {
+    opacity: 1;
+    transition: ;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+/* Media Queries */
+
+
+/* Navegacion */
+
+@media (max-width: 768px) {
+    .navegacion ul {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .navegacion {}
+}
+
+
+/* Imagen principal */
+
+@media (max-width: 768px) {
+    .hero {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .platos {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 40px;
+        left: 15px;
+        right: 100px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .efectoMenu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 40px;
+        left: 40px;
+        right: 100px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .variedades {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 30px;
+        left: 0px;
+        right: 100px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .Reseña {
+        text-align: center;
+        ;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .efecto {
+        position: relative;
+        top: 40px;
+        left: 0px;
+        right: 100px;
+        padding-top: 10px;
+        margin-top: 10px;
+        ;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .titulo {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .mapa {
+        width: 690px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .p10 {
+        text-align: center;
+    }
+}
